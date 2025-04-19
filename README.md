@@ -36,4 +36,4 @@
 ## 👨‍💻 作者信息
 
 - 作者：**夏虫、**
-- 源码地址：[GitHub 示例地址](https://github.com/913680655/MinecraftProject)
+- 源码地址：[GitHub 地址](https://github.com/913680655/MinecraftProject)
