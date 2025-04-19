@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "hidearmor",
+	"version": "${version}",
+	"name": "Hide Armor Mod",
+	"description": "允许玩家按下H键来切换是否显示自身的盔甲外观，不影响护甲值。",
+	"authors": [
+		"Minsi GAME","夏虫、"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hidearmor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.ExampleMod"
+		],
+		"client": [
+			"com.example.ExampleModClient"
+		]
+	},
+	"mixins": [
+		"hidearmor.mixins.json",
+		{
+			"config": "hidearmor.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
